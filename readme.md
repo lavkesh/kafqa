@@ -9,7 +9,6 @@ Kafka quality analyser, measuring data loss, ops, latency
 * [ ] Add store to keep track of messages (producer) [interface]
 * [ ] Ack in store to for received messages (consumer)
 * [ ] Generate produce & consume report
-* [ ] Prometheus exporter for metrics
 * [ ] CI (vet/lint/golangci) (travis)
 
 ### Report
@@ -40,6 +39,8 @@ message {
 }
 ```
 
+### WIP:
+* [ ] Prometheus exporter for metrics [irfn]
 ### Done:
 * [X] convert fmt to log
 * [X] Add timestamp to kafka message

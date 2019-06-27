@@ -57,6 +57,10 @@ services:
       - '--web.console.templates=/usr/share/prometheus/consoles'
     ports:
       - 9090:9090
+    depends_on:
+      - heatmap
+    links:
+      - heatmap
     networks:
       - kafqa
     restart: always
@@ -71,3 +75,11 @@ services:
     networks:
       - kafqa
     restart: always
+
+  heatmap:
+    build: heatmap
+    hostname: heatmap
+    ports:
+      - "8080:8080"
+    networks:
+      - kafqa
