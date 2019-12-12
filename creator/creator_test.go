@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gojekfarm/kafqa/creator"
-	"github.com/gojekfarm/kafqa/serde"
+	"github.com/lavkesh/kafqa/creator"
+	"github.com/lavkesh/kafqa/serde"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
 )

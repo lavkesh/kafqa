@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/gojekfarm/kafqa/config"
-	"github.com/gojekfarm/kafqa/creator"
-	"github.com/gojekfarm/kafqa/logger"
+	"github.com/lavkesh/kafqa/config"
+	"github.com/lavkesh/kafqa/creator"
+	"github.com/lavkesh/kafqa/logger"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

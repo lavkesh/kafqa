@@ -5,8 +5,8 @@ import (
 
 	"github.com/alicebob/miniredis"
 	"github.com/go-redis/redis"
-	"github.com/gojekfarm/kafqa/creator"
-	"github.com/gojekfarm/kafqa/store"
+	"github.com/lavkesh/kafqa/creator"
+	"github.com/lavkesh/kafqa/store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"

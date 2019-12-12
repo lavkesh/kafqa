@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gojekfarm/kafqa/serde"
+	"github.com/lavkesh/kafqa/serde"
 
-	"github.com/gojekfarm/kafqa/creator"
-	"github.com/gojekfarm/kafqa/logger"
+	"github.com/lavkesh/kafqa/creator"
+	"github.com/lavkesh/kafqa/logger"
 
-	"github.com/gojekfarm/kafqa/config"
+	"github.com/lavkesh/kafqa/config"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/suite"

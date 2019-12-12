@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/gojekfarm/kafqa/creator"
+	"github.com/lavkesh/kafqa/creator"
 )
 
 type KafqaParser struct {

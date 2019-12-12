@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gojekfarm/kafqa/config"
-	"github.com/gojekfarm/kafqa/reporter/metrics"
-	"github.com/gojekfarm/kafqa/store"
+	"github.com/lavkesh/kafqa/config"
+	"github.com/lavkesh/kafqa/reporter/metrics"
+	"github.com/lavkesh/kafqa/store"
 )
 
 type storeReporter interface {
@@ -28,6 +28,7 @@ func Setup(sr storeReporter, maxNLatency int, cfg config.Reporter, producerCfg c
 		start:   time.Now(),
 	}
 	metrics.Setup(cfg.Prometheus, producerCfg)
+	metrics.SetupPProf(cfg.PProf)
 }
 
 func ConsumptionDelay(t time.Duration) {

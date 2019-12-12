@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"testing"
 
-	"github.com/gojekfarm/kafqa/creator"
+	"github.com/lavkesh/kafqa/creator"
 	"github.com/stretchr/testify/assert"
 )
 

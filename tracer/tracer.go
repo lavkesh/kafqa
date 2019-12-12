@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/gojekfarm/kafqa/config"
-	"github.com/gojekfarm/kafqa/logger"
+	"github.com/lavkesh/kafqa/config"
+	"github.com/lavkesh/kafqa/logger"
 	"github.com/opentracing/opentracing-go"
 	"github.com/uber/jaeger-client-go"
 	jgrcfg "github.com/uber/jaeger-client-go/config"

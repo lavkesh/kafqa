@@ -3,13 +3,13 @@ package serde
 import (
 	"testing"
 
-	"github.com/gojekfarm/kafqa/logger"
+	"github.com/lavkesh/kafqa/logger"
 
 	"github.com/gogo/protobuf/proto"
-	com_esb_userLocation "github.com/gojekfarm/kafqa/serde/testdata"
+	com_esb_userLocation "github.com/lavkesh/kafqa/serde/testdata"
 	"github.com/golang/protobuf/ptypes"
 
-	"github.com/gojekfarm/kafqa/config"
+	"github.com/lavkesh/kafqa/config"
 	"github.com/stretchr/testify/assert"
 )
 

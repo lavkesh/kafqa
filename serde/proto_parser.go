@@ -4,12 +4,12 @@ import (
 	"errors"
 	"time"
 
-	"github.com/gojekfarm/kafqa/logger"
+	"github.com/lavkesh/kafqa/logger"
 
 	"github.com/jhump/protoreflect/desc"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/gojekfarm/kafqa/creator"
+	"github.com/lavkesh/kafqa/creator"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/jhump/protoreflect/dynamic"
